@@ -15,7 +15,7 @@ const MovieView = () =>{
 
     useEffect(() => {
         console.log("make an api request",id)
-        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=ab166ff82684910ae3565621aea04d62&language=en-US`)
+        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=place_your_api_key`)
         .then((response )=>{
             if(!response.ok) {
                 throw new Error("Movie not found or API error.");
