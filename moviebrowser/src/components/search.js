@@ -1,7 +1,7 @@
 import Hero from "./Hero";
 import { Link } from "react-router-dom";
 
-// 7e6747b02a0c379e4d816b45ac3bb1c6
+
 
 const MovieCard =({movie}) => {
     const DEFAULT_POSTER = "https://dummyimage.com/500x750/cccccc/000000.jpg&text=No+Poster";
